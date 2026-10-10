@@ -127,9 +127,9 @@ This starts three containers:
 
 | Service  | Container            | URL / Port            |
 | -------- | -------------------- | --------------------- |
-| Mongo    | `ai-career-mongo`    | `localhost:27017`     |
-| Backend  | `ai-career-backend`  | `http://localhost:5000` |
-| Frontend | `ai-career-frontend` | `http://localhost`    |
+| Mongo    | `career-ai-mongo`    | `localhost:27017`     |
+| Backend  | `career-ai-backend`  | `http://localhost:5000` |
+| Frontend | `career-ai-frontend` | `http://localhost`    |
 
 MongoDB data is persisted in the `mongo_data` Docker volume.
 

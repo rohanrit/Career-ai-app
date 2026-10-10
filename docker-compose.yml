@@ -1,7 +1,7 @@
 services:
   mongo:
     image: mongo:7
-    container_name: ai-career-mongo
+    container_name: career-ai-mongo
     restart: unless-stopped
     ports:
       - "27017:27017"
